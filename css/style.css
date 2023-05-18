@@ -1,0 +1,184 @@
+
+body {
+    
+font-family: 'Poppins', sans-serif;}
+    *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box ;
+        font-size: 105%;
+        font-family: 'poppins', cursive;     
+    }
+    body{
+        background-color: rgba(61, 61, 61);
+       
+    }
+    #menu div{
+        display: inline;
+    }
+    
+    #menu img{
+        
+        margin-top: 0.4%;
+        margin-bottom: -1%;
+        
+    }
+       
+    #menu{
+        background-color: rgb(253, 253, 253);
+        text-align: center;
+        font-size: 1.5vw;
+    }
+    #menu ul li{
+        display: inline;   
+    }
+    #menu ul li:last-child{
+        float: center;
+        padding: 1%; 
+        
+    }
+    #menu ul li a{
+        display: inline-block;
+        color: rgb(46, 46, 46);
+        text-decoration: none;  
+        padding: 1%; 
+        margin-left: 3%;
+     }
+     #menu ul li a:hover{
+       color: rgb(247, 247, 247);
+       text-shadow: 0px 0px 7px rgb(253, 253, 253);
+     }
+     #menu img:hover{
+       text-shadow: 0px 0px 7px rgb(253, 253, 252);
+       
+       background-image: url(../imagem/logo.png);
+       background-size: 101%;
+       background-repeat: no-repeat;
+       
+    
+     }
+    #inicio{
+        display: flex;
+        text-align: center;
+        background-color: 61, 61, 61;
+        color:  rgb(245, 245, 245);
+    }
+    #inicio div{
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-block: 40px;
+        font-size: 2vw;   
+    }
+    #inicio div h1{
+        margin-left: -150px;
+        margin-right: -150px;
+        font-size: 3vw;
+    }
+    #inicio div ul a{
+        background-color: rgb(48, 47, 47);    
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        text-decoration: none;  
+        padding: 13px;
+        border-radius: 10px; 
+        font-size: 1.7vw;
+    }
+    #inicio ul li a:hover{
+        background-color: rgb(51, 51, 51) ;
+        color: rgb(248, 248, 247);
+        box-shadow: 0px 0px 20px rgb(70, 70, 69);
+    } 
+    aside{
+        background-color: white;
+        background-image: url(../imagem/logo.png);
+        background-repeat: no-repeat;
+        background-size: 35%        
+    }
+    aside main{
+        text-align: center;
+        padding: 160px;
+        color:  #fafafa;
+        font-size: 2vw;  
+        background-color: rgba(46,46,46);
+        
+    
+    }
+    aside main h2{
+        font-size: 3vw;
+    }
+    
+    #aumentarasegurança{
+        background-color: rgba(54, 54, 54, 0.766);
+        font-size: 25px;
+        display: flex;
+        color: rgb(255, 255, 255);
+        margin-top: 5%;
+    }
+    #aumentarasegurança div{
+        text-align: center;
+        margin-right: 125px;
+        margin-left: 125px;
+        margin-block: 120px;
+        font-size: 2vw;   
+    }
+    #aumentarasegurança div h2{
+        font-size: 3vw;
+        margin-block: 40px;
+    }
+    #responsabilidade{
+        display: flex;
+        background-color: rgba(46, 46, 46);
+        margin-top: 5%;
+       
+    }
+    #responsabilidade div{
+        text-align: center;
+        margin-right: 125px;
+        margin-left: 125px;
+        margin-block: 105px;
+        font-size: 2vw;
+        color:rgb(255, 255, 255);
+    }
+    #responsabilidade div h2{
+        font-size: 3vw;
+        margin-block: 40px;
+    }
+    #Brasilfalha{
+        background-color: rgba(46, 46, 46);
+        font-size: 25px;
+        display: flex;
+        color: rgb(255, 255, 255);
+        margin-top: 5%;
+    }
+    #Brasilfalha div{
+        text-align: center;
+        margin-right: 125px;
+        margin-left: 125px;
+        margin-block: 105px;
+        font-size: 2vw;
+        color:rgb(255, 255, 255);
+    }
+    
+    #Brasilfalha div h2{
+        font-size: 3vw;
+        margin-block: 40px;
+    }
+    #ComoéaSegurança{
+        background-color: rgba(46, 46, 46);
+        font-size: 25px;
+        display: flex;
+        color: rgb(255, 255, 255);
+        margin-top: 5%;
+        margin-block: 5%;
+    }
+    #ComoéaSegurança div{
+        text-align: center;
+        margin-right: 125px;
+        margin-left: 125px;
+        margin-block: 105px;
+        font-size: 2vw;
+        }
+    #ComoéaSegurança div h2{
+            font-size: 3vw;
+            margin-block: 40px;
+        }
