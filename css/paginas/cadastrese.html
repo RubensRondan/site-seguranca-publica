@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagem/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+    font-family: 'Poppins', sans-serif;}
+    *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box ;
+        font-size: 105%;
+        font-family: 'poppins', cursive;     
+    }
+    body{
+        background-color: rgba(61, 61, 61);
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    #menu div{
+        display: inline;
+    }
+    
+    #menu img{
+        
+        margin-top: 0.4%;
+        margin-bottom: -1%;
+    }
+       
+    #menu{
+        background-color: rgb(253, 253, 253);
+        text-align: center;
+        font-size: 1.5vw;
+    }
+    #menu ul li{
+        display: inline;   
+    }
+    #menu ul li:last-child{
+        float: center;
+        padding: 1%; 
+        
+    }
+    #menu ul li a{
+        display: inline-block;
+        color: rgb(46, 46, 46);
+        text-decoration: none;  
+        padding: 1%; 
+        margin-left: 3%;
+     }
+     #menu ul li a:hover{
+       color: rgb(247, 247, 247);
+       text-shadow: 0px 0px 7px rgb(253, 253, 253);
+     }
+     #menu img:hover{
+       text-shadow: 0px 0px 7px rgb(253, 253, 252);
+       
+       background-image: url(../imagem/logo.png);
+       
+       
+     }
+        body{
+            background-color: rgba(46,46,46);
+            
+        }
+        form{
+                 padding: 40px;
+                 background-color:rgba(46,46,46);
+                 border-radius: 5px;
+                 box-shadow: 0px 0px 20px rgb(253, 253, 253);
+                 color:rgb(255, 255, 255);
+                 line-height: 40px;
+                 margin-block: 3%;
+                 width: 70%;        
+        }
+        form h1{
+            font-size: 40px;
+            text-align: center;
+        }
+        form h2{
+            font-size: 25px;
+            line-height: 70px;
+        }
+        input[type="button"] {
+                background-color: rgba(46,46,46);
+                color: #fff;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                text-align: center;
+                display: flex;
+        }
+        input[type="button"]:hover {
+                background-color:rgba(46,46,46);
+                box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        }
+        
+        
+    </style>
+    <title>Formulário</title>
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="tudoSobre.html">Tudo Sobre</a></li>
+            <li><a href="cadastrese.html">Cadastre-se</a></li>
+            <div><a href="../index.html"><img src="../imagem/logo.png" alt="" width="7%"></a></div>
+            <li><a href="artigos.html">Artigo</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    </nav>
+    <main>
+        <h1>Formulário</h1>
+        <form>
+           <label>Endereço</label><input type="text" name="endereço" placeholder="Digite o Endereço" size="40" maxlength="150"/><!--value=texto que aparecera dentro do campo/size=tamanho da fonte/ maxlength=quantidade maxima de caracteres-->
+           <label>Data de nascimento</label><input type="date" name="data_nascimento"/> <!--input=entrada--> 
+           <label>Senha</label><input type="password" name="Senha" placeholder="Digite sua senha"/>
+           <label>Data/Hora de Entrada</label><input type="datetime-local" name="datahora_entrada"/><br>
+        
+            <label>Telefone</label><input type="tel" name="Telefone" size="20"maxlength="11"/><br>
+            <label>E-mail</label><input type="email" name="E-mail" placeholder="Digite seu e-mail" size="50" maxlength="80"/><br>
+            <label>Pesquisa</label><input type="search" name="Buca"  size="50" maxlength="80"/><br>
+            <label>Site</label><input type="url" name="site" placeholder="Digite o Site" size="50" maxlength="100"/><br><br>
+
+
+            <label>Estado</label><select name="Estado" id="Estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AM">Amazonas</option>
+            <option value="AP">Amapá</option>
+            <option value="AC">Distrito Federal</option>
+            <option value="AC">Goiás</option>
+            <option value="AC">Mato Grosso</option>
+            <option value="AC">Mato Grosso do Sul</option>
+            <option value="AC">Bahia</option>
+            <option value="AC">Ceará</option>
+            <option value="AC">Maranhão</option>
+            <option value="AC">Paraíba</option>
+            <option value="AC">Pernambuco</option>
+            <option value="AC">Piauí</option>
+            <option value="AC">Rio Grande do Norte</option>
+            <option value="AC">Sergipe</option>
+            <option value="AC">Pará</option>
+            <option value="AC">Rondônia</option>
+            <option value="AC">Roraima</option>
+            <option value="AC">Tocantis</option>
+            <option value="AC">Espírito Santo</option>
+            <option value="AC">Minas Gerais</option>
+            <option value="AC">Rio de Janeiro</option>
+            <option value="AC">São Paulo</option>
+            <option value="AC">Paraná</option>
+            <option value="AC">Rio Grande do Sul</option>
+            <option value="AC">Santa Catarina</option>
+            
+            
+
+        </select>
+        </form>
+    </main>
+    
+</body>
+</html>
