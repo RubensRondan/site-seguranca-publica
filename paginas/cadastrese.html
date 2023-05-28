@@ -103,7 +103,7 @@
         
         
     </style>
-    <title>Formulário</title>
+    <title>Formulario</title>
 </head>
 <body>
     <nav id="menu">
@@ -117,47 +117,91 @@
     </nav>
     </nav>
     <main>
-        <h1>Formulário</h1>
+        <h1></h1>
         <form>
-           <label>Endereço</label><input type="text" name="endereço" placeholder="Digite o Endereço" size="40" maxlength="150"/><!--value=texto que aparecera dentro do campo/size=tamanho da fonte/ maxlength=quantidade maxima de caracteres-->
-           <label>Data de nascimento</label><input type="date" name="data_nascimento"/> <!--input=entrada--> 
-           <label>Senha</label><input type="password" name="Senha" placeholder="Digite sua senha"/>
-           <label>Data/Hora de Entrada</label><input type="datetime-local" name="datahora_entrada"/><br>
+            <form action="cadastresse">
+                <h1>Cadastre-se</h1><br>
+                <h2>Dados pessoais:</h2>
+                    <label for="nome">Nome</label>
+                        <input type="name" name="Nome" placeholder="Digite seu nome" id="nome" required=""><br>
         
-            <label>Telefone</label><input type="tel" name="Telefone" size="20"maxlength="11"/><br>
-            <label>E-mail</label><input type="email" name="E-mail" placeholder="Digite seu e-mail" size="50" maxlength="80"/><br>
-            <label>Pesquisa</label><input type="search" name="Buca"  size="50" maxlength="80"/><br>
-            <label>Site</label><input type="url" name="site" placeholder="Digite o Site" size="50" maxlength="100"/><br><br>
-
-
-            <label>Estado</label><select name="Estado" id="Estado">
-            <option value="AC">Acre</option>
-            <option value="AL">Alagoas</option>
-            <option value="AM">Amazonas</option>
-            <option value="AP">Amapá</option>
-            <option value="AC">Distrito Federal</option>
-            <option value="AC">Goiás</option>
-            <option value="AC">Mato Grosso</option>
-            <option value="AC">Mato Grosso do Sul</option>
-            <option value="AC">Bahia</option>
-            <option value="AC">Ceará</option>
-            <option value="AC">Maranhão</option>
-            <option value="AC">Paraíba</option>
-            <option value="AC">Pernambuco</option>
-            <option value="AC">Piauí</option>
-            <option value="AC">Rio Grande do Norte</option>
-            <option value="AC">Sergipe</option>
-            <option value="AC">Pará</option>
-            <option value="AC">Rondônia</option>
-            <option value="AC">Roraima</option>
-            <option value="AC">Tocantis</option>
-            <option value="AC">Espírito Santo</option>
-            <option value="AC">Minas Gerais</option>
-            <option value="AC">Rio de Janeiro</option>
-            <option value="AC">São Paulo</option>
-            <option value="AC">Paraná</option>
-            <option value="AC">Rio Grande do Sul</option>
-            <option value="AC">Santa Catarina</option>
+                    <label for="sobrenome">Sobrenome</label>
+                        <input type="name" name="sobrenome" placeholder="Digite seu sobrenome" id="sobrenome" required=""><br>
+        
+                    <label for="sexo">Sexo:</label>
+                        <input type="radio" name="sexo" id="Masculino" value="M" required="">
+                    <label for="Masculino">Masculino</label>
+                        <input type="radio" name="sexo" id="Feminino" value="F" required="">
+                    <label for="Feminino">Feminino</label><br>
+        
+                    <label for="nascimento">Data de Nascimento</label>
+                        <input type="date" name="Data_nascimento" id="nascimento" required=""><br>
+        
+                    <label for="mail">E-mail</label>
+                        <input type="email" name="e-mail" placeholder="Digite deu e-mail" id="mail" required=""><br>
+                    
+                    <label for="cpf">CPF</label> 
+                        <input type="number" name="CPF" placeholder="Digite seu CPF" maxlength="11" minlength="11" id="cpf" required=""><br>
+        
+                    <label for="senha">Senha</label>
+                        <input type="password" placeholder="Digite sua senha" minlength="8" name="senha" id="senha" required=""><br>
+        
+                    <label for="rsenha">Repita a Senha</label>
+                        <input type="password" placeholder="Repita sua senha" minlength="8" name="rsenha" id="rsenha" required=""><br>    
+        
+                    <h2>Endereço:</h2>
+        
+                    <label for="cep">CEP</label>
+                        <input type="number" name="CEP" placeholder="Digite seu CEP" id="cep" required=""><br>
+                    
+                    <label for="rua">Rua</label>
+                        <input type="text" name="nome_rua" placeholder="Digite o nome da sua Rua" id="rua" required=""><br>
+        
+                    <label for="n">Número</label>
+                        <input type="text" name="numero" placeholder="Digite seu número" id="n" required=""><br>
+        
+                    <label for="complemento">Complemento</label>
+                        <input type="text" name="complemento" placeholder="Digite um complemento" maxlength="50" id="complemento"><br>
+                  
+                    <label for="cidade">Cidade</label>
+                         <input type="text" name="Cidade" placeholder="Digite sua cidade" maxlength="50" minlength="3" id="cidade" required=""><br>
+                  
+                    <label for="bairro">Bairro</label>
+                        <input type="text" name="Bairro" placeholder="Digite seu bairro" maxlength="50" minlength="3" id="bairro" required=""><br>
+        
+        
+                    <label for="estado">Estado</label><select name="Estado" id="estado" required="">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option> 
+        
+                        </select><input type="button" value="Enviar" onclick="enviar()">  
+                                       
+                    </form>
             
             
 
