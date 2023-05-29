@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,108 +11,174 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
     <style>
         body {
-    font-family: 'Poppins', sans-serif;}
-    *{
-        margin: 0 auto;
-        padding: 0;
-        box-sizing: border-box ;
-        font-size: 105%;
-        font-family: 'poppins', cursive;     
-    }
-    body{
-        background-color: rgba(61, 61, 61);
-        background-attachment: fixed;
-        background-size: 100%;
-    }
-    #menu div{
-        display: inline;
-    }
-    
-    #menu img{
-        
-        margin-top: 0.4%;
-        margin-bottom: -1%;
-    }
-       
-    #menu{
-        background-color: rgb(253, 253, 253);
-        text-align: center;
-        font-size: 1.5vw;
-    }
-    #menu ul li{
-        display: inline;   
-    }
-    #menu ul li:last-child{
-        float: center;
-        padding: 1%; 
-        
-    }
-    #menu ul li a{
-        display: inline-block;
-        color: rgb(46, 46, 46);
-        text-decoration: none;  
-        padding: 1%; 
-        margin-left: 3%;
-     }
-     #menu ul li a:hover{
-       color: rgb(247, 247, 247);
-       text-shadow: 0px 0px 7px rgb(253, 253, 253);
-     }
-     #menu img:hover{
-       text-shadow: 0px 0px 7px rgb(253, 253, 252);
-       
-       background-image: url(../imagem/logo.png);}
-    #Constituição{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        * {
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 105%;
+            font-family: 'poppins', cursive;
+        }
+
+        body {
+            background-color: rgba(61, 61, 61);
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+
+        #menu div {
+            display: inline;
+        }
+
+        #menu img {
+
+            margin-top: 0.4%;
+            margin-bottom: -1%;
+        }
+
+        #menu {
+            background-color: rgb(253, 253, 253);
             text-align: center;
-            display:flexbox;
+            font-size: 1.5vw;
+        }
+
+        #menu ul li {
+            display: inline;
+        }
+
+        #menu ul li:last-child {
+            float: center;
+            padding: 1%;
+
+        }
+
+        #menu ul li a {
+            display: inline-block;
+            color: rgb(46, 46, 46);
+            text-decoration: none;
+            padding: 1%;
+            margin-left: 3%;
+        }
+
+        #menu ul li a:hover {
+            color: rgb(247, 247, 247);
+            text-shadow: 0px 0px 7px rgb(253, 253, 253);
+        }
+
+        #menu img:hover {
+            text-shadow: 0px 0px 7px rgb(253, 253, 252);
+
+            background-image: url(../imagem/logo.png);
+        }
+
+        #Constituição {
+            text-align: center;
+            display: flexbox;
             border-radius: 10px;
-            background-color:rgba(46, 46, 46);
-            color:rgb(253, 253, 253);
-            line-height: 70px;
+            background-color: rgba(46, 46, 46);
+            color: rgb(253, 253, 253);
             margin-top: 4%;
             font-size: 2vw;
-       
-       
-     }
-     </style>
+        }
+
+        #Constituição img {
+            min-width: 300px;
+        }
+
+        .content {
+            /* vertical | horizontal */
+            margin: 20px 40px;
+        }
+
+        .content p {
+            font-size: 1rem;
+            text-align: justify;
+            padding-bottom: 20px;
+        }
+    </style>
 </head>
-<body> 
+
+<body>
     <nav id="menu">
-    <ul>
-       
-        <li><a href="tudoSobre.html">Tudo Sobre</a></li>
-        <li><a href="cadastrese.html">Cadastre-se</a></li>
-        <div><a href="../index.html"><img src="../imagem/logo.png" alt="" width="7%"></a></div>
-        <li><a href="Artigos.html">Artigo</a></li>
-        <li><a href="login.html">Login</a></li>
+        <ul>
+
+            <li><a href="tudoSobre.html">Tudo Sobre</a></li>
+            <li><a href="cadastrese.html">Cadastre-se</a></li>
+            <div><a href="../index.html"><img src="../imagem/logo.png" alt="" width="7%"></a></div>
+            <li><a href="Artigos.html">Artigo</a></li>
+            <li><a href="login.html">Login</a></li>
         </ul>
-</nav>
-<div id="Constituição">
-    <h2>Artigo 144. da Constituição Federal </h2>
-    <img src="../imagem/constituiçao.jpg" alt="Constituição Federal" width="30%"><br>
-    A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, sob a égide dos valores da cidadania e dos direitos humanos, através dos órgãos instituídos pela União e pelos Estados. 
+    </nav>
+    <div id="Constituição">
+        <h2>Artigo 144. da Constituição Federal </h2>
+        <img src="../imagem/constituiçao.jpg" alt="Constituição Federal" width="30%"><br>
+        <div class="content">
+            <p>
+                A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação
+                da
+                ordem pública e da incolumidade das pessoas e do patrimônio, sob a égide dos valores da cidadania e dos
+                direitos humanos, através dos órgãos instituídos pela União e pelos Estados.
+            </p>
+            <p>
+                Órgãos Responsáveis pela Segurança Pública
+            </p>
+            <p>
+                Polícia Federal – é responsável em âmbito federal, investigando e reprimindo crimes de competência da
+                União,
+                como tráfico de drogas, contrabando, crimes ambientais e crimes financeiros.
+            </p>
 
- Órgãos Responsáveis pela Segurança Pública 
+            <p>
+                Polícia Rodoviária Federal – é responsável pela segurança nas rodovias federais do país, atuando na
+                fiscalização
+                do trânsito, combate ao crime nas estradas e prevenção de acidentes.
+            </p>
 
-Polícia Federal – é responsável em âmbito federal, investigando e reprimindo crimes de competência da União, como tráfico de drogas, contrabando, crimes ambientais e crimes financeiros. 
+            <p>
+                Polícia Ferroviária Federal – órgão permanente, organizado e mantido pela União e estruturado em
+                carreira,
+                destina-se, na forma da lei, ao patrulhamento ostensivo das ferrovias federais.
+            </p>
 
-Polícia Rodoviária Federal – é responsável pela segurança nas rodovias federais do país, atuando na fiscalização do trânsito, combate ao crime nas estradas e prevenção de acidentes. 
+            <p>
+                Polícias Civis – organizadas e mantidas pelos Estados e Distrito Federal, dirigidas por delegados de
+                polícia
+                de
+                carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de
+                infrações penais, exceto as infrações militares.
+            </p>
 
-Polícia Ferroviária Federal – órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se, na forma da lei, ao patrulhamento ostensivo das ferrovias federais. 
+            <p>
+                Polícias Militares – são responsáveis pela segurança pública nos Estados e Distrito Federal, atuando na
+                preservação da ordem pública, na prevenção e repressão de crimes, e na garantia da segurança dos
+                cidadãos.
+            </p>
 
-Polícias Civis – organizadas e mantidas pelos Estados e Distrito Federal, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as infrações militares. 
+            <p>
+                Corpos de Bombeiros Militares – incumbe a execução de atividades de defesa civil.
+            </p>
+            <p>
+                Polícias Penais Federal, Estaduais e Distrital – vinculadas ao órgão administrador do sistema penal da
+                unidade
+                federativa a que pertencem, cabe a segurança dos estabelecimentos penais.
+            </p>
 
-Polícias Militares – são responsáveis pela segurança pública nos Estados e Distrito Federal, atuando na preservação da ordem pública, na prevenção e repressão de crimes, e na garantia da segurança dos cidadãos. 
+            <p>
+                Guardas Municipais – atuam nos municípios na proteção do patrimônio público, na fiscalização do trânsito
+                e
+                no
+                policiamento ostensivo.
+            </p>
+        </div>
 
-Corpos de Bombeiros Militares – incumbe a execução de atividades de defesa civil. 
+    </div>
 
-Polícias Penais Federal, Estaduais e Distrital – vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabe a segurança dos estabelecimentos penais. 
-
-Guardas Municipais – atuam nos municípios na proteção do patrimônio público, na fiscalização do trânsito e no policiamento ostensivo.
-</div>
-    
 </body>
+
 </html>
